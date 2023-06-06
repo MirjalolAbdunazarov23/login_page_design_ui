@@ -1,0 +1,55 @@
+name: flutter_application_1
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+ 
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+
+  fonts:
+    - family: Gelasio
+      fonts:
+        - asset: assets/fonts/Gelasio/Gelasio-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Gelasio/Gelasio-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Gelasio/Gelasio-SemiBold.ttf
+          weight: 600    
+    - family: Marriwheather
+      fonts:
+        - asset: assets/fonts/Merriweather/Merriweather-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Merriweather/Merriweather-Regular.ttf
+          weight: 400
+    - family: nunito sans
+      fonts:
+        - asset: assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito_Sans/NunitoSans_7pt_Condensed-SemiBold.ttf
+          weight: 600
+  
+
